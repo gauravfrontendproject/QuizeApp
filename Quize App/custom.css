@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Libre+Baskerville:wght@700&family=Lobster+Two:wght@400;700&family=Nanum+Myeongjo:wght@700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=VT323&display=swap');
+
+body {
+    background-color: #82ccdd;
+    font-family: "Playfair Display", serif;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#box {
+    width: 40%;
+    padding: 15px;
+    background-color: white;
+    box-sizing: 0 0 5px grey;
+    border-radius: 5px;
+}
+.row{
+    margin: 2rem;
+    margin-left: 0;
+    width: 100%;
+}
+.btn{
+    font-size: 20px;
+    border: none;
+    background-color: #82ccdd;
+    width: 100%;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
